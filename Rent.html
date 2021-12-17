@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Bootstrap UI</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Rent.css">
+
+   </head>
+   <body>
+    <div class="container">
+
+        <!--main heading start-->
+        <div class="main_heading">
+            <h4>Online House Rent Agreement</h4>
+        </div>
+        <!--main heading end-->
+
+        <!--nav bar starts-->
+        <div>
+            <ul class="nav">
+               
+                <li class="nav-item">
+                    <a class="nav-link disabled" style="font: weight 800" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" style="font: weight 800" href="#">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" style="font: weight 800" href="#">Blogs</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" style="font: weight 800" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled"  style="font: weight 800" href="#">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+        <!--nav bar ends-->
+
+        <!--jumbotron starts-->
+        <div class="row">
+            <div class="container">
+                <div class="jumbotron">
+                    <h6 class=".text-danger">WELCOME TO ONLINE HOUSE RENT AGREEMENT</h6>
+                <br>
+                    <p>We will help you to find house easily.</p>
+                     <button type="button" class="btn btn-danger">Learn more</button>
+                </div>
+            </div>
+        </div>
+        <!-- jumbotron ends-->
+
+        <!--table starts-->
+        <div class="container">
+            <h4>Facilities available to customer :-</h4>
+            <table class="table table-striped">
+
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Furnished</th>
+                  <th>Payment Mode</th>
+                  <th>Stamp duty</th>
+                  <th>Duration</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td><b>1 BHK</b></td>
+                  <td>No</td>
+                  <td>online</td>
+                  <td>1600</td>
+                  <td>6 Months</td>
+                </tr>
+
+                <tr>
+                  <td><b>2 BHK</b></td>
+                  <td>Yes</td>
+                  <td>Cash</td>
+                  <td>2500</td>
+                  <td>10 Months</td>
+                </tr>
+
+                <tr>
+                  <td><b>3 BHK</b></td>
+                  <td>Yes</td>
+                  <td>RTGS</td>
+                  <td>4000</td>
+                  <td>1 Year</td>
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
+        <!--table ends-->
+
+        <!--cards starts-->
+        <div class="container">
+          <div class="card-deck">
+
+            <div class="card" style="width:400px">
+              <h4 class="card-title">&nbsp;&nbsp;&nbsp;Process before online system</h4>
+              <img class="card-img-top" src="D:\Aa\practice\bootstrap ui\img\process.jpg" alt="How was the process before online system image">
+              <div class="card-body">                
+                <p class="card-text">The casual system of renting houses is very difficult process.One has to print stamp paper, 
+                  visit registar office, sign the Agreement. It's a very long and time consuming process. Mostly migrants face challenges
+                due to the casual system as it's difficult to find home of their budget, their need, their preferable area etc.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width:400px">
+              <h4 class="card-title">&nbsp;&nbsp;&nbsp;Online Rent Agreement</h4>
+              <img class="card-img-top" src="D:\Aa\practice\bootstrap ui\img\rent.png" alt="Online Rent Agreement image">
+              <div class="card-body">                
+                <p class="card-text">As home ownership may sometimes be inconvenient or unaffordable, a majority of the migrant working 
+                  population in India’s major cities live in rented homes. So much so that many states in India are currently busy
+                   working out the details of more future-aligned rental policies, to promote this segment of housing in the country.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width:400px">
+              <h4 class="card-title">&nbsp;&nbsp;&nbsp;Benefits of online system</h4>
+              <img class="card-img-top" src="D:\Aa\practice\bootstrap ui\img\facilities.png" alt="What are the benefits of online system image">
+              <div class="card-body">                
+                <p class="card-text">We are stuck in the era of technology where online rent agreement can simplify the issues faced
+                  by many new migrants. Online  system provides a platform for the users an rental product owners in an effective and 
+                  efficient manner. The main objective is to provide common people a chance to find house on rent using internet.</p>
+              </div>   
+            </div>
+
+          </div>
+        </div>
+        <!--cards ends-->
+
+        <!--form starts-->
+        <div class="container">
+            <h2>Registration form :-</h2>
+            <form class="form">
+
+                <br>
+            <h5>&nbsp;&nbsp;&nbsp;Personal Details</h5>
+            <br>
+            
+            <div class="col-md-8">
+                <label for="name">Name :-</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label for="email">&nbsp;&nbsp;&nbsp;Gender :-</label>
+
+            <div class="form-check-inline">
+            <label class="form-check-label" for="male">
+                <input type="radio" class="form-check-input" id="male" name="gender" value="male">Male
+              </label>
+            </div>
+
+            <div class="form-check-inline">
+              <label class="form-check-label" for="female">
+                <input type="radio" class="form-check-input" id="female" name="gender" value="female">Female
+              </label>
+            </div>
+
+            <div class="form-check-inline">
+              <label class="form-check-label" for="others">
+                <input type="radio" class="form-check-input" id="others" name="gender" value="others">Others
+              </label>
+              </div>
+            </div>
+                
+                  <div class="row">
+                    <div class="col-sm-5">
+                      <div class="container"> 
+                        <label for="idproof">Id Proof :-</label>                                       
+                        <div class="dropdown">
+                          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                            Select ID Proof
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Aadhar Card</a>
+                            <a class="dropdown-item" href="#">Pan Card</a>
+                            <a class="dropdown-item" href="#">Driving License</a>
+                            <a class="dropdown-item" href="#">Passport</a>
+                            <a class="dropdown-item" href="#">Voter Id</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-7">
+                <div class="form-check-inline">
+                  <label for="uploadid">Upload Id Proof :-</label>
+                  <input type="file" class="form-control-file" id="uploadid">
+                </div>
+                </div>
+                </div>
+              
+
+              <br>
+              <h5>&nbsp;&nbsp;&nbsp;Contact Details</h5>
+
+              <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                  <div class="form-group">
+                  <label for="mobno">Mobile No :-</label>
+                  <input type="number" class="form-control" id="mobno" placeholder="Enter mob no." name="mobno">
+                </div>
+              </div>
+                <div class="col-sm-5">
+                  <div class="form-group">
+                    <label for="email">Email Id :-</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div>
+                </div>
+                <div class="col-sm-1"></div>
+              </div>
+
+              <br>
+
+              <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">              
+                  <div class="form-group">
+                <label for="address">Current Address :-</label>
+                <textarea name="address"  class="form-control" id="address" rows="4" placeholder="Enter your current Address"></textarea>
+                </div>
+              </div>
+              <div class="col-sm-2"></div>
+            </div>
+
+            <hr> 
+            
+            <div class="text-center">
+              <button type="submit" class="btn btn-success">Submit</button>
+              <button type="reset" class="btn btn-danger">Cancel</button>
+            </div>
+
+            </form>
+          </div>  
+        <!--form ends-->
+
+        <!--footer starts-->
+        <div class="container">
+         <div class="footer">
+          <h6>Copyright ©2021 All rights reserved..||</h6>
+         </div>
+        </div>
+        <!--footer ends-->
+
+    </div>
+   </body> 
+</html>
